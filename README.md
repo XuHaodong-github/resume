@@ -6,7 +6,7 @@
 职业：后端开发工程师
 电话：18971823958
 邮箱：xuhaodong_work@163.com
-博客地址：https://github.com/XuHaodong-github\
+博客地址：https://github.com/XuHaodong-github，https://blog.csdn.net/jiba12323234
 
 
 教育背景：
@@ -108,6 +108,23 @@ JSON请求体可以后端压缩（哈夫曼压缩），也可以前端压缩(pak
 
 
 mybatis plus分页插件查询速度慢，自定义COUNT优化
+
+
+定位线上很卡，日志问题，流程中心，最后通过数据库触发器，依赖另一个字段，发现很多id重复
+
+荣誉奖项，证书
+
+公司内部讲座分享
+
+流程中心工单系统，成本
+
+告警机器人
+
+缓存依赖解决
+
+项目内存溢出，启动过不了健康检查，一直重启问题解决
+
+
 
 
 ----
