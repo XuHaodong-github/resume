@@ -80,12 +80,17 @@
 
 
 
+
 <!-- 可以补充的 -->
 熟悉MS Project项目管理工具的使用
 熟悉性能监测工具Granfa的使用、会设置jvm exporter
 统计慈善义卖活动的并发量、三十周年活动的并发量
 HTTP三次握手四次挥手，和DDOS攻击三种类型的区别
 压测英语benchmarking
+
+websocket开发局域网共享剪切板，部署一个demo网站使用【轻松传】
+
+流程中心总共的处理量，看OA待办管理
 
 新闻发布校验接口月均1000次检测，常见的问题【开发的时候接口开关设置、校验逻辑的设计、日志统计、CSS格式文件校验方法】
 
@@ -133,6 +138,31 @@ mybatis plus分页插件查询速度慢，自定义COUNT优化
 
 了解拦截器的实现，ThreadLocal
 了解全局异常的处理
+
+
+流量回放工具
+
+nacos配置和使用，nacos的实现
+
+了解mybatis plus代码生成器FastAutoGenerator的使用和实现，用于项目提效。了解原理，其中freeMaker的使用，其中consumer函数方法的使用
+怎么解决同一个库里不能有同名表的问题，会多次生成相同字段，不同schema里同名表也不行
+
+了解HTTP强制缓存和协商缓存，慈善义卖前端缓存用到了这个技术
+
+
+关于高并发实现，乐观锁和悲观锁，数据库MVCC
+
+
+写过自定义注解。校验数字集合是否连续，主要用到了@Constraint(validatedBy = )
+
+SSE和websocket的区别
+- SSE原生支持重连，websocket需要另外的组件
+- SSE支持的连接数上限，浏览器端限制有6个【需要实践，但是影响不大】
+- SSE和websocket都有单服务多实例，怎么共享消息的问题
+
+
+
+rabbitmq springboot并发参数调整
 
 
 ----
@@ -214,7 +244,8 @@ jmeter，mat
 - 有过微信小程序开发对接经验（最后没用到是因为小程序不支持大量websocket连接）
 - 方案设计、核心开发、项目管理
 - websocket功能通信优化（避免广播风暴，根据业务只在满足最高价的条件的情况下广播信息）
-
+- 排查过rabbitmq生产环境断连问题【QueuesNotAvailableException、SimpleRabbitListenerContainerFactory.setMissingQueuesFatal】，具体了解过源码配置，根据错误信息提示排查，配置找不到消费者时怎么处理
+- 排查过rabbitmq生产环境重启消费者数量不正确，重启的初期只有一个消费者的问题。【SimpleRabbitListenerContainerFactory.setStartConsumerMinInterval】【spring bean加载顺序】
 
 ----
 
