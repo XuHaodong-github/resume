@@ -25,7 +25,7 @@
 中间件：熟悉MinIO、RabbitMQ、Redis、Activiti，了解ElasticSearch
 分布式：了解ZooKeeper、Seata
 网络。熟悉WebSocket、了解SSE、Nginx
-DevOps：熟悉Git分支管理、k8s、Arthas、了解Jenkins、Docker、Prometheus
+DevOps：熟悉Git大型项目代码分支管理、k8s、Arthas、了解Jenkins、Docker、Prometheus
 前端：了解Javascript、HTML、Vue、Typescript
 项目管理：禅道
 
