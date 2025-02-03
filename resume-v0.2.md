@@ -21,12 +21,11 @@
 
 ## 技术栈：
 后端：熟悉Java 8、Java 21，了解Go、Node.js
-数据库。熟悉PostgreSQL、了解MongoDB、MySQL
-中间件：熟悉MinIO、RabbitMQ、Redis、Activiti，了解ElasticSearch
-分布式：了解ZooKeeper、Seata
-网络。熟悉WebSocket、了解SSE、Nginx
-DevOps：熟悉Git大型项目代码分支管理、k8s、Arthas、了解Jenkins、Docker、Prometheus
+数据库：熟悉PostgreSQL、了解MongoDB、MySQL
+中间件：熟悉MinIO、RabbitMQ、Redis、Activiti工作流，了解ElasticSearch、ZooKeeper、Seata
+网络：熟悉WebSocket、了解SSE、Nginx
 前端：了解Javascript、HTML、Vue、Typescript
+DevOps：熟悉Git大型项目代码分支管理、k8s、Arthas、了解Jenkins、Docker、Prometheus
 项目管理：禅道
 
 
@@ -43,7 +42,7 @@ DevOps：熟悉Git大型项目代码分支管理、k8s、Arthas、了解Jenkins�
 - 设计用户操作前后端埋点方案，记录用户参与情况，便于运营进行用户活跃度和商品浏览量分析
 - 上线初期大量用户同时访问，配置Nginx图片等静态资源缓存压缩，协调UI进行移动端字体精简，与企微部门进行流量监控，分批发布推送消息，减少了60%瞬时网络占用带宽
 - 义卖活动具有周期性，迭代开发过程中采用AREX进行流量回放演练、问题复现以及回归验证，减少线上问题排查时间
-- 项目初期参与进行了前端技术调研，分析对比了微信小程序和H5页面实现，总结了相关微信小程序申请经验
+- 项目初期参与进行前端技术调研，分析对比微信小程序和H5页面实现，总结了相关微信小程序申请经验
 
 
 总裁办信息平台
